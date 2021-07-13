@@ -1,6 +1,7 @@
 #   @memecian
 #   toRegional.py
 #   Turns text into Discord Emojis, specifically regional indicators.
+#   GUI VERSION
 
 inputString = input("Input Letters: ")
 
