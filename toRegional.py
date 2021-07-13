@@ -3,11 +3,11 @@
 #   Turns text into Discord Emojis, specifically regional indicators.
 
 inputString = input("Input Letters: ")
-outputString = "\n"
+
 for c in inputString:
     if c.isalpha():
-        outputString.append(":regional_indicator" + c + ": ")
+        print(":regional_indicator_" + c + ": ", end = "")
     else:
-        outputString.append(c + " ")
-print(outputString)
-input("Press Enter to quit")
+        print(c, end = "")
+
+input("\nPress Enter to quit")
