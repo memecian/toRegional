@@ -6,7 +6,7 @@ inputString = input("Input Letters: ")
 
 for c in inputString:
     if c.isalpha():
-        print(":regional_indicator_" + c + ":", end = "")
+        print(":regional_indicator_" + c + ":", end = " ")
     else:
         print(c, end = "")
 
